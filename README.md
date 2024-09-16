@@ -4,9 +4,16 @@
 
 #Netflix GPT Features
 
+-create react app
+-configured tailwindcss
+-Header
+-Routing of app
 
 -Login/SignUp Page
  -Sign In / Sign Up (Then redirect to Browse Page)
+
+-Form Validation
+ -use ref(hooks)
 
 
 
