@@ -23,22 +23,7 @@ const Body = () => {
             element:<Browse/>
         }
     ]);
-    useEffect(() => {
-      onAuthStateChanged(auth, (user) => {
-        if (user) {
-          const { uid, email  } = user;
-          dispatch(
-            addUser({
-              uid: uid,
-              email: email,
-              
-            })
-          );
-        } else {
-          dispatch(removeUser());
-        }
-      });
-    }, []);
+
 
   return (
     <div>
